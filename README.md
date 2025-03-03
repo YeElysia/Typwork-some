@@ -1,6 +1,6 @@
 # Typwork-some
 个人写作的Typst预设  
-Typst presets for my homework writing.  
+Typst presets for my work writing.  
 
 ## 项目来源 
 本项目基于 [typreset](https://github.com/Fr4nk1inCs/typreset) 修改，感谢原作者的贡献。  

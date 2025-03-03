@@ -1,7 +1,7 @@
 [package]
-name = "typsthw"
+name = "typwork-some"
 version = "0.1.0"
 entrypoint = "src/lib.typ"
 authors = ["Yeelysia"]
 license = "MIT"
-description = "Typst presets for my homework writing."
+description = "Typst presets for my work writing."
