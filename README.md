@@ -12,23 +12,23 @@ This project is modified from [typreset](https://github.com/Fr4nk1inCs/typreset)
 
 手动下载 Scripst 并将其存放至：  
 ```
-~/.local/share/typst/packages/local/typwork-some/0.1.0                 # Linux  
-%APPDATA%\typst\packages\local\typwork-some\0.1.0                      # Windows  
-~/Library/Application Support/typst/packages/local/typwork-some/0.1.0  # macOS  
+~/.local/share/typst/packages/local/Typwork-some/0.1.0                 # Linux  
+%APPDATA%\typst\packages\local\Typwork-some\0.1.0                      # Windows  
+~/Library/Application Support/typst/packages/local/Typwork-some/0.1.0  # macOS  
 ```
 
 或者运行如下命令：
 
 ```bash 
-mkdir -p {data-dir}/typst/packages/local/typwork-some
-git clone https://github.com/yeelysia/typwork-some.git ~/.local/share/typst/packages/local/typwork-some/0.1.0
+mkdir -p {data-dir}/typst/packages/local/Typwork-some
+git clone https://github.com/yeelysia/Typwork-some.git ~/.local/share/typst/packages/local/Typwork-some/0.1.0
 ```
 
 其中`data-dir`为Typst的数据目录，如上述Linux系统中的`~/.local/share/typst`，Windows系统中的`%APPDATA%\typst`，macOS系统中的`~/Library/Application Support/typst`。
 
 ### 使用
 ```typst
-#import "@local/typwork-some:0.1.0": homework
+#import "@local/Typwork-some:0.1.0": homework
 
 #let question = homework.question
 #let answer = homework.answer
