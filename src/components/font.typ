@@ -1,16 +1,23 @@
 /* Font settings */
 
-#let font = "Palatino Linotype"
+#let zh-font = "LXGW Wenkai"
+#let en-font = "Palatino Linotype"
 
-#let math-font = "Palatino Linotype"
+#let math-font = "Libertinus Math"
 
 #let set-font(lang: "en", body) = {
-  show emph: set text(font: math-font)
+  set math.text(font: "Libertinus Math")
   if lang == "en" {
-    set text(font: font, lang: "en")
+    set text(
+      font: en-font,
+      lang: "en",
+    )
     body
   } else if lang == "zh-cn" {
-    set text(font: font, lang: "zh")
+    set text(
+      font: (en-font, zh-font),
+      lang: "zh",
+    )
     body
   } else {
     assert(false, message: "Font for language " + lang + " not supported")
