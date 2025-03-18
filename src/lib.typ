@@ -2,3 +2,4 @@
 
 #import "include/homework.typ"
 #import "include/font.typ"
+#import "include/styles.typ"
