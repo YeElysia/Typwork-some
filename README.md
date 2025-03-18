@@ -71,7 +71,6 @@ print(test_str)
 
 这里我没有写 {data-source-line="70"},应该是在代码块中嵌套使用代码块导致的
 There is no {data-source-line="70"} here, it should be caused by the nested code block in the code block.
-
 ```
 
 ![alt text](docs/test_show.png)
