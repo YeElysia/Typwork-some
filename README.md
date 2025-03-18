@@ -35,7 +35,17 @@ git clone https://github.com/yeelysia/Typwork-some.git ~/.local/share/typst/pack
 
 #let level = sys.inputs.at("level", default: "post"); //报告等级 the level of the report
 
+
 /*
+  你可以选择在文档内手动设置等级，或者编译时传入参数
+  You can choose to set the level manually in the document or pass it as a parameter at compile time.
+
+  例如：typst compile main.typ main-submit.pdf --input level=submit
+  例如：typst compile main.typ main-post.pdf --input level=post
+  
+  example: typst compile main.typ main-post.pdf --input level=post
+  example: typst compile main.typ main-submit.pdf --input level=submit
+
   level: "post" | "submit"
   post: 显示昵称并隐藏学号 show nickname and hide student ID
   submit: 显示真名和学号 show real name and student ID
