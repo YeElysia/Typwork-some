@@ -1,12 +1,17 @@
 /* Font settings */
 
-#let zh-font = "LXGW Wenkai"
-#let en-font = "Palatino Linotype"
-
+#let zh-font = "LXGW Wenkai Mono Screen"
+#let en-font = "Maple Mono NF"
 #let math-font = "Libertinus Math"
 
 #let set-font(lang: "en", body) = {
-  set math.text(font: "Libertinus Math")
+  //set math.text(font: math-font)
+  show math.equation: set text(font: (
+    // "Fira Math", // 数学
+    "New Computer Modern Math",
+    //en-font,
+    zh-font, // 中文
+  ))
   if lang == "en" {
     set text(
       font: en-font,

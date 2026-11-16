@@ -21,7 +21,7 @@
     inset: 7pt,
     fill: rgb("#f5f5f5"),
   )
-  show raw.where(block: true): set text(font: ("Maple Mono NF", "LXGW WenKai"), size: 10pt)
+  show raw.where(block: true): set text(font: ("Maple Mono NF", "LXGW WenKai Mono Screen"), size: 10pt)
 
   // FIX: fixes typst's list/enum rendering
   // See https://github.com/typst/typst/issues/1204 for more info
